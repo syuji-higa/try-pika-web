@@ -1,0 +1,22 @@
+{
+  "name": "demo-pika-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:syuji-higa/demo-pika-web.git",
+  "author": "syuji-higa <syuji.higa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pika": "pika install"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.6.1"
+  },
+  "@pika/pack": {
+    "webDependencies": [
+      "dayjs"
+    ]
+  },
+  "dependencies": {
+    "dayjs": "^1.8.32"
+  }
+}
